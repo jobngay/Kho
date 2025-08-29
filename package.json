@@ -1,0 +1,68 @@
+{
+  "name": "netlify-build",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Netlify build module",
+  "type": "module",
+  "author": "Netlify Inc.",
+  "scripts": {
+    "lint": "eslint --cache --fix",
+    "lint:ci": "eslint --cache",
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "test:ci": "lerna run test:ci",
+    "format": "prettier --write .",
+    "format:ci": "prettier --check ."
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "windows",
+    "macos",
+    "linux",
+    "shell",
+    "bash",
+    "build",
+    "terminal",
+    "deployment",
+    "es6",
+    "serverless",
+    "ci",
+    "continuous-integration",
+    "continuous-delivery",
+    "continuous-deployment",
+    "plugins",
+    "continuous-testing",
+    "netlify-plugin",
+    "netlify"
+  ],
+  "homepage": "https://github.com/netlify/build",
+  "repository": "https://github.com/netlify/build",
+  "bugs": {
+    "url": "https://github.com/netlify/build/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0",
+    "@eslint/compat": "^1.2.9",
+    "@eslint/js": "^9.28.0",
+    "@typescript-eslint/eslint-plugin": "^8.34.0",
+    "@vitest/eslint-plugin": "^1.2.1",
+    "eslint": "^9.28.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-ava": "^15.0.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "^17.19.0",
+    "execa": "^8.0.1",
+    "lerna": "^8.2.2",
+    "prettier": "^3.0.0",
+    "typescript-eslint": "^8.34.0"
+  },
+  "engines": {
+    "node": ">=18.14.0"
+  }
+}
