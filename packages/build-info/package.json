@@ -48,14 +48,14 @@
     "@iarna/toml": "^2.2.5",
     "dot-prop": "^9.0.0",
     "find-up": "^7.0.0",
-    "minimatch": "^9.0.0",
+    "minimatch": "^9.0.9",
     "read-pkg": "^9.0.0",
     "semver": "^7.3.8",
-    "yaml": "^2.8.0",
+    "yaml": "^2.8.3",
     "yargs": "^17.6.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.53.1",
+    "@playwright/test": "^1.59.1",
     "@types/node": "^18.19.111",
     "@types/semver": "^7.3.13",
     "@vitest/ui": "^3.0.0",

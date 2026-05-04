@@ -2,11 +2,11 @@
   "name": "zip-it-and-ship-it-fixtures",
   "dependencies": {
     "d3": "^7.0.0",
-    "jimp": "^1.0.0",
+    "jimp": "^1.6.1",
     "jquery": "^3.6.0",
-    "lodash": "^4.17.21",
+    "lodash": "^4.18.1",
     "moment": "^2.29.4",
-    "next": "^12.1.0",
+    "next": "^15.5.15",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }
